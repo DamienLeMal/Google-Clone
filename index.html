@@ -8,13 +8,16 @@
     <body>
         <div class="main">
             <img class="logo-img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png">
-            <input class="search-input" type="text">
-            <div class="buttons-wrapper">
-                <button>Google Search</button>
-                <button>I'm feeling lucky</button>
-            </div>
+            <form id="form" action="#" onsubmit="googleSearch();return false">
+                <input class="search-input" type="text">
+                <div class="buttons-wrapper">
+                    <button type="submit">Google Search</button>
+                    <button>I'm feeling lucky</button>
+                </div>
+            </form>
         </div>
     </body>
+	<script src="index.js"></script>
 </html>
 
 
